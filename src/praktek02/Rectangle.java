@@ -8,5 +8,11 @@ public class Rectangle {
         System.out.println("panjang : "+panjang);
         System.out.println("lebar : "+lebar);
         System.out.println("|-|-|-|-|-|-|-|-|-|-|-");
+    }
+        double hitungLuas(){
+          double luas;
+          luas=panjang*lebar;
+          return luas ;
+    }
    }
-}
+
