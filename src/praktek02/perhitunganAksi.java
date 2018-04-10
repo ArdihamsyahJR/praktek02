@@ -1,19 +1,19 @@
 package praktek02;
-public class RectsngleAksi {
+public class perhitunganAksi {
     public static void main(String [] args){
         
-        Rectangle r1 = new Rectangle();
-        r1.panjang = 9;
-        r1.lebar = 3;
+        perhitungan r1 = new perhitungan();
+        r1.p = 9;
+        r1.l = 3;
         
         r1.cetakInfo();
         System.out.println("Luas Rectangle = "+r1.hitungLuas()); 
         r1.cetakLuas();
         
-        Rectangle r2 = new Rectangle();
+        perhitungan r2 = new perhitungan();
         r2.cetakInfo();
         
-        Rectangle r3 = new Rectangle();
+        perhitungan r3 = new perhitungan();
         r3.cetakInfo();
 }
 }

@@ -1,26 +1,26 @@
 package praktek02;
-public class Rectangle {
-    double panjang ;
-    double lebar ;
+public class perhitungan {
+    double p ;
+    double l ;
     
-    public Rectangle(){
-     panjang =5;
-     lebar=2;
+    public perhitungan(){
+     p =5;
+     l=2;
     }
-    public Rectangle( double panjang,double lebar){
-    this.panjang = panjang;
-    this.lebar = lebar;
+    public perhitungan( double panjang,double lebar){
+    this.p = p;
+    this.l = l;
     }
     
     void cetakInfo (){
         System.out.println("|-|-|-|-|-|-|-|-|-|-|-");
-        System.out.println("panjang : "+panjang);
-        System.out.println("lebar : "+lebar);
+        System.out.println("panjang : "+p);
+        System.out.println("lebar : "+l);
         System.out.println("|-|-|-|-|-|-|-|-|-|-|-");
     }
         double hitungLuas(){
           double luas;
-          luas=panjang*lebar;
+          luas=p*l;
           return luas ;
     }
         void cetakLuas(){
